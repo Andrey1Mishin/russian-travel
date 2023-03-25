@@ -4,6 +4,9 @@
 
 Использованы технологии Flexbox, Grid layout.
 
+[Посмотреть проект на Git-Hub](https://andrey1mishin.github.io/russian-travel/) 
+
+
 
 
 
