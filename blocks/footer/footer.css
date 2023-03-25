@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /*grid-template-columns: repeat(6, min-content);
+  gap: 18px;*/
+  max-width: 1184px;
+  min-height: 18px;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 92px;  
+  padding-bottom: 24px; 
+}
+
+@media screen and (max-width: 976px) {
+  .footer {
+      margin-right: 24px;
+      margin-left: 24px;
+      margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+      margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+      margin-right: 16px;
+      margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .footer {
+      display: block;
+      /*столбец*/
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+      margin: auto;
+      margin-top: 92px;
+  }
+}
